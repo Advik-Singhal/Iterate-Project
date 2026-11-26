@@ -1,0 +1,117 @@
+{
+  "participant": 1,
+  "days_between_recordings": 51,
+  "reduced_channels": [
+    "Fz",
+    "FCz",
+    "Cz"
+  ],
+  "validation_false_alarm_target": 0.1,
+  "metrics": {
+    "Recording 1": {
+      "64 channels": {
+        "correct_moves": 73,
+        "error_moves": 18,
+        "errors_caught": 14,
+        "false_alarms": 10,
+        "error_recall": 0.7777777777777778,
+        "false_alarm_rate": 0.136986301369863,
+        "balanced_accuracy": 0.8203957382039574,
+        "roc_auc": 0.9162861491628614
+      },
+      "3 channels": {
+        "correct_moves": 73,
+        "error_moves": 18,
+        "errors_caught": 9,
+        "false_alarms": 0,
+        "error_recall": 0.5,
+        "false_alarm_rate": 0.0,
+        "balanced_accuracy": 0.75,
+        "roc_auc": 0.7770167427701674
+      },
+      "Always correct": {
+        "correct_moves": 73,
+        "error_moves": 18,
+        "errors_caught": 0,
+        "false_alarms": 0,
+        "error_recall": 0.0,
+        "false_alarm_rate": 0.0,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5
+      }
+    },
+    "Recording 2": {
+      "64 channels": {
+        "correct_moves": 438,
+        "error_moves": 117,
+        "errors_caught": 97,
+        "false_alarms": 34,
+        "error_recall": 0.8290598290598291,
+        "false_alarm_rate": 0.0776255707762557,
+        "balanced_accuracy": 0.8757171291417867,
+        "roc_auc": 0.9399758029895016
+      },
+      "3 channels": {
+        "correct_moves": 438,
+        "error_moves": 117,
+        "errors_caught": 69,
+        "false_alarms": 5,
+        "error_recall": 0.5897435897435898,
+        "false_alarm_rate": 0.01141552511415525,
+        "balanced_accuracy": 0.7891640323147173,
+        "roc_auc": 0.891835460328611
+      },
+      "Always correct": {
+        "correct_moves": 438,
+        "error_moves": 117,
+        "errors_caught": 0,
+        "false_alarms": 0,
+        "error_recall": 0.0,
+        "false_alarm_rate": 0.0,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5
+      }
+    }
+  },
+  "later_balanced_accuracy_intervals": {
+    "64 channels": [
+      0.8409372181560882,
+      0.907373371189251
+    ],
+    "3 channels": [
+      0.7536912615546545,
+      0.8317736836647917
+    ]
+  },
+  "later_three_minus_64": {
+    "balanced_accuracy": -0.08655309682706935,
+    "error_recall": -0.23931623931623935,
+    "false_alarm_rate": -0.06621004566210045
+  },
+  "later_balanced_accuracy_difference_interval": [
+    -0.12560776761433476,
+    -0.045524229978459826
+  ],
+  "recording_2_movement_direction_audit": {
+    "Leftward": {
+      "errors": 74,
+      "correct": 210,
+      "roc_auc": {
+        "64 channels": 0.9515444015444016,
+        "3 channels": 0.9034749034749034
+      }
+    },
+    "Rightward": {
+      "errors": 43,
+      "correct": 228,
+      "roc_auc": {
+        "64 channels": 0.9198286413708691,
+        "3 channels": 0.8696450428396573
+      }
+    }
+  },
+  "thresholds_fixed_on_recording_1": {
+    "64 channels": 0.1546785303497378,
+    "3 channels": 0.5146912166167025
+  }
+}
